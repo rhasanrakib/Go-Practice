@@ -9,7 +9,7 @@ You can also use this command from your download directory
 sudo tar -C /usr/local -xvzf go1.15.2.linux-amd64.tar.gz
 ```
 
-Now open the bash profile from your terminal
+Now open the bash profile from your terminal and run the command. Be ensure you are on home/${USER} directory
 ```sh
 nano .bashrc
 ```
@@ -20,4 +20,18 @@ export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
+```
+
+#RUN
+
+To build and run use this command
+
+```sh
+ go run hello-world.go
+```
+You can also use build and run separately by using this two command
+
+```sh
+go build hello-world.go
+./hello-world
 ```
