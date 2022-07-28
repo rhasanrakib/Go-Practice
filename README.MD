@@ -22,7 +22,7 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 ```
 
-#RUN
+# RUN
 
 To build and run use this command
 
